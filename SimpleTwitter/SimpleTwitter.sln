@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.Domain", "SimpleTwitter.Domain\SimpleTwitter.Domain.csproj", "{89455090-4F32-4B87-9EEF-88EEB85CE963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.Events", "SimpleTwitter.Events\SimpleTwitter.Events.csproj", "{5334FA86-49AF-4993-9222-CA797A52C56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.Commands", "SimpleTwitter.Commands\SimpleTwitter.Commands.csproj", "{49EF3821-6026-4E59-92DE-57DE98E9DF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.CommandExecutors", "SimpleTwitter.CommandExecutors\SimpleTwitter.CommandExecutors.csproj", "{3C000063-68DB-46B3-B2AA-F2829A9482AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.CommandService", "SimpleTwitter.CommandService\SimpleTwitter.CommandService.csproj", "{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTwitter.Web", "SimpleTwitter.Web\SimpleTwitter.Web.csproj", "{49FDCAC5-7155-4F0F-AC76-E86CA86A53DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7} = {1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89455090-4F32-4B87-9EEF-88EEB85CE963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89455090-4F32-4B87-9EEF-88EEB85CE963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89455090-4F32-4B87-9EEF-88EEB85CE963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89455090-4F32-4B87-9EEF-88EEB85CE963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5334FA86-49AF-4993-9222-CA797A52C56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5334FA86-49AF-4993-9222-CA797A52C56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5334FA86-49AF-4993-9222-CA797A52C56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5334FA86-49AF-4993-9222-CA797A52C56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EF3821-6026-4E59-92DE-57DE98E9DF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EF3821-6026-4E59-92DE-57DE98E9DF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EF3821-6026-4E59-92DE-57DE98E9DF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EF3821-6026-4E59-92DE-57DE98E9DF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C000063-68DB-46B3-B2AA-F2829A9482AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C000063-68DB-46B3-B2AA-F2829A9482AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C000063-68DB-46B3-B2AA-F2829A9482AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C000063-68DB-46B3-B2AA-F2829A9482AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2E8D7D-6A27-4EAD-87ED-F26C08CAAEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FDCAC5-7155-4F0F-AC76-E86CA86A53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FDCAC5-7155-4F0F-AC76-E86CA86A53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FDCAC5-7155-4F0F-AC76-E86CA86A53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FDCAC5-7155-4F0F-AC76-E86CA86A53DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="63c3d25f-6f0b-45b3-8b89-374f8b92d0ef" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:34178/SimpleTwitterCommandService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SimpleTwitterCommandService.xsd" MetadataType="Schema" ID="a92cfd65-5d2c-44a6-83d6-186c5d5568d1" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SimpleTwitterCommandService1.xsd" MetadataType="Schema" ID="5e1a0dc1-fc02-4098-844d-6d1372a31bb9" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SimpleTwitterCommandService.disco" MetadataType="Disco" ID="7a9f789c-3683-4e3a-af14-abe4047292bc" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?disco" />
+    <MetadataFile FileName="SimpleTwitterCommandService.wsdl" MetadataType="Wsdl" ID="89a5373b-12cd-4b41-8c74-e23053614ee6" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?wsdl" />
+    <MetadataFile FileName="SimpleTwitterCommandService2.xsd" MetadataType="Schema" ID="ada734f1-54e7-46f1-990c-b1151e509495" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SimpleTwitterCommandService3.xsd" MetadataType="Schema" ID="90806ae5-693e-4636-9984-84066672207b" SourceId="1" SourceUrl="http://localhost:34178/SimpleTwitterCommandService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
