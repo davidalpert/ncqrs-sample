@@ -14,3 +14,7 @@ NDependOut
 
 .setup-done
 Distribution
+*.vs10x
+*.docstates
+*.ldf
+*.user

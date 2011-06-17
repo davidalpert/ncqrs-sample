@@ -9,13 +9,13 @@ using SimpleTwitter.Domain;
 
 namespace SimpleTwitter.CommandExecutors
 {
-    public class PostNewTweetCommandExecutor : CommandExecutorBase<PostNewTweetCommand>
-    {
-        protected override void ExecuteInContext(IUnitOfWorkContext context, PostNewTweetCommand command)
-        {
-            var newTweet = new Tweet(command.Message, command.Who);
+	public class PostNewTweetCommandExecutor : CommandExecutorBase<PostNewTweetCommand>
+	{
+		protected override void ExecuteInContext( IUnitOfWorkContext context, PostNewTweetCommand command )
+		{
+			var newTweet = new Tweet( command.Message, command.Who );
 
-            context.Accept();
-        }
-    }
+			context.Accept();
+		}
+	}
 }

@@ -1,1 +1,17 @@
-﻿
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SimpleTwitterReadModel" Class="ReadModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ehp217\sql2008;AttachDbFilename=E:\Users\davida\dev\cqrs-sample\SimpleTwitter\SimpleTwitter.Web\App_Data\ReadModel.mdf;Integrated Security=True" SettingsObjectName="SimpleTwitter.ReadModel.Properties.Settings" SettingsPropertyName="SimpleTwitterReadModelConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TweetCountPerUser" Member="TweetCountPerUsers">
+    <Type Name="TweetCountPerUser">
+      <Column Name="Who" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TweetListItem" Member="TweetListItems">
+    <Type Name="TweetListItem">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Who" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

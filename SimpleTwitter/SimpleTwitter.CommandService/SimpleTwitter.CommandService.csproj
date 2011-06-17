@@ -56,7 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SimpleTwitterCommandService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -87,6 +89,14 @@
     <ProjectReference Include="..\SimpleTwitter.Domain\SimpleTwitter.Domain.csproj">
       <Project>{89455090-4F32-4B87-9EEF-88EEB85CE963}</Project>
       <Name>SimpleTwitter.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleTwitter.Events\SimpleTwitter.Events.csproj">
+      <Project>{5334FA86-49AF-4993-9222-CA797A52C56A}</Project>
+      <Name>SimpleTwitter.Events</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleTwitter.ReadModel\SimpleTwitter.ReadModel.csproj">
+      <Project>{6A11FD41-9050-44F2-BB5E-FEC705BBFD10}</Project>
+      <Name>SimpleTwitter.ReadModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
